@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Mon panier objet</title>
+
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+		<!-- En-tête -->
+		<header>
+			<h1>Mon mini panier objet</h1>
+		</header>
+
+		<!-- Contenu principal -->
+		<main>
+			<div id="container-boutons">
+				<button id="btn-1" class="toto">Steak 8€</button>
+				<button id="btn-2">Pancake 10€</button>
+				<button id="btn-3">Cupcake 2€</button>
+			</div>
+
+			<div>
+				<div id="texte-panier">Votre panier est vide</div>
+
+				<!-- Permet de stocker des informations dans un tableau -->
+				<table id="details-panier">
+					<!-- Ligne de titre (th) -->
+					<tr>
+						<th>Image</th>
+						<th>Libellé</th>
+						<th>Catégorie</th>
+						<th>Prix</th>
+					</tr>
+				</table>
+
+				<div>
+					<button id="btn-clean">Vider panier</button>
+				</div>
+			</div>
+		</main>
+
+		<!-- Pied de page -->
+		<footer>
+			&copy; Boris Sérèmes 2016
+		</footer>
+		<script src="js/script.js"></script>
+	</body>
+</html>

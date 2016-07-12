@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Cinzel:400,700);
+
+html {
+	font-family: 'Cinzel', serif;
+}
+body {
+	background-color: #455A64;
+
+}
+
+header {
+	background-color: #455A64;
+	color: #CFD8DC;
+	padding: 75px;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+main {
+	background-color: #CFD8DC;
+	color: #455A64;
+	padding: 150px;
+	text-align: center;
+}
+
+footer {
+	background-color: #212121;
+	color: #CFD8DC;
+	padding: 40px;
+	text-align: center;
+	font-size: 0.75em;
+}
+
+#btn-1, #btn-2, #btn-3 {
+	background-color: #455A64;
+	padding: 20px;
+	border: none;
+	color: #212121;
+	font-weight: bold;
+	text-transform: uppercase;
+	width: 20%;
+	padding-top: 200px;
+	background-size: 100% 75%;
+	background-repeat: no-repeat;
+}
+button:hover {	
+	background-color: #5C5346;
+}
+
+#btn-1 {
+	background-image: url("http://download.foodshot.co/Foodshot_2016_04_4.jpg");
+}
+
+#btn-2 {
+	background-image: url("http://download.foodshot.co/Foodshot_2016_09_7.jpg");
+}
+
+#btn-3 {
+	background-image: url("http://download.foodshot.co/Foodshot_2016_18_7.jpg");
+}
+
+#texte-panier {
+	margin: 40px;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+table {
+	margin: auto;
+}
+
+td, th {
+	padding: 10px;
+}
+
+.img-article {
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
